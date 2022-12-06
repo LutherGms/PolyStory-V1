@@ -1,0 +1,108 @@
+h6{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+#opaque_2{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+#opaque_2:target{
+    display: block;
+}
+
+.fermer_fenetre{
+	background-color:#FFF;
+    background-image:url('Images/gifmath.gif');
+	background-position: center;
+	background-repeat:no-repeat;
+    padding: 20px;
+    border: 25px solid #;
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+}
+img.bouton_fermer {
+    float: right;
+    margin: -48px -49px 0 0;
+}
+
+h2{
+text-align: center;
+font-family:'super_mario_bros.regular';
+}
+
+h3{
+color: #F1F1D0;
+text-decoration: none;
+}
+h4{
+	color: black ;
+	font-size: 45;
+	text-align: center;
+	font-family:'super_mario_256regular';
+	margin: 25px;
+}
+.texte
+{
+	text-decoration: none;
+    color : black;
+}
+ 
+.texte:hover
+{
+    color : #36B3B3;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'super_mario_bros.regular';
+    src: url('Polices/super_mario_bros.-webfont.woff2') format('woff2'),
+         url('Polices/super_mario_bros.-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'super_mario_256regular';
+    src: url('Polices/supermario256-webfont.woff2') format('woff2'),
+         url('Polices/supermario256-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-image: url("Images/hyrule.png") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+h1{
+margin-left: 45px;
+text-decoration: none;
+font-family:'super_mario_256regular';
+text-align: center;
+		
+}
+
+.texte_2
+{
+	text-decoration: none;
+    color : #0E9E31;
+}
+ 
+.texte_2:hover
+{
+    color : black;
+}

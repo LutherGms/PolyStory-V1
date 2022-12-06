@@ -1,0 +1,13 @@
+Pour utiliser les commandes suivantes, il faut impérativement avoir Git Bash sur son pc :
+	/Si c'est dans un nouveau dépositoire
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/LutherGms/PolyStory-V1.git
+	git push -u origin main
+
+	/Si c'est dans un dépositoire existant
+	git remote add origin https://github.com/LutherGms/PolyStory-V1.git
+	git branch -M main
+	git push -u origin main

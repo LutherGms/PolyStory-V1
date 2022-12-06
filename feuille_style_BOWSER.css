@@ -1,0 +1,123 @@
+
+#opaque_3{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#opaque_3:target{
+    display: block;
+}
+.fermer_fenetre{
+	background-color:#FFF;
+    background-image:url('Images/gifmath.gif');
+	background-position: center;
+	background-repeat:no-repeat;
+    padding: 20px;
+    border: 25px solid #;
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+}
+.bowser_final{
+	background-color:black ;
+    background-image:url('Images/bws.gif');
+	background-position: center;
+	background-repeat:no-repeat;
+    padding: 20px;
+    border: 25px solid #;
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+}
+img.bouton_fermer {
+    float: right;
+    margin: -48px -49px 0 0;
+}
+
+h6{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h1{
+margin-left: 45px;
+text-decoration: none;
+font-family:'super_mario_256regular';
+text-align: center;
+		
+}
+
+h2{
+text-align: center;
+font-family:'super_mario_bros.regular';
+color: #fff;
+}
+
+h3{
+color: #F1F1D0;
+text-decoration: none;
+font-size: 25px;
+}
+h4{
+	color: white ;
+	font-size: 45;
+	text-align: center;
+	font-family:'super_mario_256regular';
+	margin: 25px;
+}
+.texte
+{
+	text-decoration: none;
+    color : white;
+}
+ 
+.texte:hover
+{
+    color : #36B3B3;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'super_mario_bros.regular';
+    src: url('Polices/super_mario_bros.-webfont.woff2') format('woff2'),
+         url('Polices/super_mario_bros.-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'super_mario_256regular';
+    src: url('Polices/supermario256-webfont.woff2') format('woff2'),
+         url('Polices/supermario256-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-image: url("Images/bowser.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.texte_2
+{
+	text-decoration: none;
+    color : #D2C2BE;
+}
+ 
+.texte_2:hover
+{
+    color : #ED3F14;

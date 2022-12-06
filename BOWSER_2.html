@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>PolyStory</title>
+	<meta charset = "utf-8">
+	<link rel ="stylesheet" href="feuille_style_BOWSER.css" /> 
+
+</head>
+
+<body>
+
+<h2><a class="texte" href="ACCUEIL.html"><font size="45">PolyStory Bowser</font></h2>
+<br>
+<h1><a class="texte_2" href="Bowser/BOWSER.html">Page 1 </a></h1>
+
+
+<div id="opaque_3">
+    <div class="fermer_fenetre">
+        <a class="close" href="#no"><img alt="Fermer" title="Fermer la fenêtre" class="bouton_fermer" src="Images/close.png"></a>
+        
+
+<script language="javascript">
+min = 1;
+sec = 0;
+
+function chrono() {
+sec = sec - 1;
+
+if (sec < 0) {
+min = min - 1;
+sec = 59;
+}
+if (min < 0) {
+alert("Trop tard...");
+location.href='lose_bowser.html'
+min = 0;
+sec = 0;
+document.form.txt.value=min+'"'+sec;
+}
+else{
+document.form.txt.value=min+'"'+sec;
+setTimeout("chrono()",1000);
+}
+}
+</script>
+<FORM name="form" >
+<INPUT TYPE="TEXT" NAME="txt" value='1"00'><INPUT TYPE="button" VALUE="lancer" onClick="chrono(this.form)">
+</FORM>
+
+
+
+
+        <h2>Petit jeu :D .. </h2>
+		<br>
+		<center><h3> ( z - 10 )² + 400 = 0 </h3>	
+			√<input type="text" id="delta" placeholder="delta">
+			<input type="button" value="Entrer" onclick="delta_bowser2()">
+		</center>
+		<br>		
+        <center>
+			<input type="text" id="solution_4" placeholder="Solution ">
+			<input type="text" id="solution_5" placeholder="Solution ">
+			<input type="button" value="Entrer" onclick="clique_bowser3()">
+			<audio  id="beep" src="Musiques/1-up.mp3" onclick="clique_bowser3()">
+			</audio>
+		</center>
+		<br><br>
+		<script type="text/Javascript" src="Bowser/bowser.js"></script>
+		
+    </div>
+</div>
+
+<h6>
+	Nos deux personnages réunis, ils décidèrent d'élaborer un plan pour réussir à entrer dans le château. <br>
+Ils ont alors l'idée de grimper les murs grâce à une corde spécialement conçu pour s'agripper aux murs démoniaques. <br>
+Arrivé en haut des murs, les deux plombiers on pu apercevoir une porte qui menait sans doute vers Aléa et Golum mais en s'approchant, les deux tombent dans une trappe secrète. <br>
+C'était une ruse de Bowser, il savait qu'ils étaient là pour lui.
+
+</h6>
+
+<h4>Pour voir la suite de l'histoire <a class="texte" href="#opaque_3">cliquez ici</a></h4>
+
+
+</body>
+</html>

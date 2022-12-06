@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<link rel ="stylesheet" href="feuille_de_styleMS.css" /> 
+
+<title>Accueil</title>
+</head>
+
+<body>
+
+
+<h2>PolyStory</h2>
+
+
+
+
+<h3>Choisissez Votre Monde !</h3>
+
+<font face="Arial">
+<p id='ma_balise' align="center">_________________________________</p>
+</font>
+<center>
+  <script type="text/javascript">
+
+
+
+function changeText(region){
+	document.getElementById('ma_balise').innerHTML =region;
+}
+function hors_image(){
+	document.getElementById('ma_balise').innerHTML = 'Revenez sur l image !'
+}
+
+</script>
+  <img  onMouseOut='hors_image()' src="mario_sonic.jpg"  border="0" usemap="#Map" />
+<map  name="Map" id="Map">
+
+<area onMouseOver='changeText("Ceci est un beau ballon !")' shape="poly" coords="420,557,425,590,448,602,473,613,501,609,522,594,535,575,535,548,515,514,477,500,448,508,426,526" href="http://www.maxifoot.fr" />
+
+<area onMouseOver='changeText("Le Monde De Mario")' shape="poly" coords="2,657,470,656,491,632,474,615,423,593,415,560,422,525,447,502,472,496,467,487,489,459,470,435,488,400,483,375,483,354,481,328,478,242,481,215,472,205,466,201,491,173,468,144,490,114,469,87,491,56,469,26,490,0,1,0" href="PERSONNAGES.html" /> 
+
+<area onMouseOver='changeText("Le Monde De Sonic")' shape="poly" coords="538,657,542,0,959,2,958,655" href="payez.html" />
+
+<area onMouseOver='changeText("Le Monde De Sonic")' shape="poly" coords="486,497,535,498,536,0,496,1" href="payez.html" />
+
+
+</map>
+
+</body>
+</html>

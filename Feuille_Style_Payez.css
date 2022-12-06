@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'super_mario_bros.regular';
+    src: url('Polices/super_mario_bros.-webfont.woff2') format('woff2'),
+         url('Polices/super_mario_bros.-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'super_mario_256regular';
+    src: url('Polices/supermario256-webfont.woff2') format('woff2'),
+         url('Polices/supermario256-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+text-align: center;
+font-family:'super_mario_256regular';
+font-size: 13px;
+}
+
+h3{
+margin-left: 15px;
+text-decoration: none;
+font-family:'super_mario_256regular';
+text-align: center;
+		
+}
+h1{
+    font-family: Apple Chancery, cursive;
+font-size: 26px;
+text-align: left;     
+}
+
+body{
+    background-image: url("sonicwallpaper2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}

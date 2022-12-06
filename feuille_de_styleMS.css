@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'super_mario_bros.regular';
+    src: url('Polices/super_mario_bros.-webfont.woff2') format('woff2'),
+         url('Polices/super_mario_bros.-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'super_mario_256regular';
+    src: url('Polices/supermario256-webfont.woff2') format('woff2'),
+         url('Polices/supermario256-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+text-align: center;
+font-family:'super_mario_bros.regular';
+font-size: 20px;
+}
+
+h3{
+margin-left: 15px;
+text-decoration: none;
+font-family:'super_mario_256regular';
+text-align: center;
+		
+}
+h1{
+margin-left: 30px;
+text-align: center;
+        
+}
